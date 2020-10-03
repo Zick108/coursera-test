@@ -1,0 +1,98 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family: 'Lato', sans-serif;  
+}
+
+.row{
+  width: 100%;
+}
+
+.menu-title{
+  text-align: center;
+  padding-top: 30px;
+  font-size: 1.75em;
+}
+
+.container{
+ position: relative;
+ top:40px;
+ margin: 15px; 
+}
+
+.item{
+  position: relative;
+  top: 0;
+  background-color:#dddddd;
+  margin: 15px;
+  padding: 25px;
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+
+.item p{
+  margin-top: 18px;
+  height: 100px;
+  font-size:100%;
+  overflow: hidden;
+}
+
+.item-title{
+  position: absolute;
+  top:0;
+  right: 0px;
+  background: green; 
+  padding: 2px 60px;
+  border: 1px solid #000;
+}
+.item-title h3{
+  font-size: 1.25em;
+}
+
+#title-one {
+  background-color: #D59898;
+} 
+
+#title-two{
+  background-color: #C14543;
+}
+
+#title-three{
+  background-color: #E5D198;
+}
+
+/* Simple Responsive Framework. */
+/*------ Desktop ------*/
+@media (min-width: 992px){
+  .col-lg-4{
+    float: left;
+    width: 33.33%;
+  }
+
+}
+
+
+/*------ Tablet ------*/
+@media (min-width: 768px) and (max-width: 991px){
+  .col-md-6 {
+    width: 50%;
+    float: left;
+  }
+  .col-md-tablet{
+   width: 100%;
+   float: left;
+ }
+}
+
+
+/*------ Mobile ------*/
+@media (max-width: 767px){
+  .col-sm-12{
+    width: 100%;
+    float: left;
+  }
+}
