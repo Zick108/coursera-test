@@ -25,6 +25,9 @@ h1.name{
   color: #0033ff;
   padding: 5px;
 }
+#social a{
+  padding: 15px;
+}
 @media(max-width:768px){
   .card {
     position: relative;
