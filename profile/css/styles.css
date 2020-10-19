@@ -1,9 +1,10 @@
 *{
   margin: 0;
   box-sizing: border-box;
+  font-family: "Ubuntu";
 }
 body{
-  background-color: burlywood;
+  background-color: #ddeeff;
 }
 div a{
   
@@ -12,8 +13,14 @@ div a{
 a:hover{
   text-decoration: none;
 }
-p{
-  line-height: .1em;
+section{
+  margin-top: 10px;
+  line-height: 2.2em;
+  padding: 5px 5px 15px 5px;
+}
+section span{
+  font-size: 1.2em;
+  font-weight: bold;
 }
 h1.name{
   margin-top: 0;
@@ -21,12 +28,15 @@ h1.name{
   text-align: center;
   font-weight: bolder;
   font-size: 8vw;
-  background-color:azure;
-  color: #0033ff;
+  background-color:#ddeeff;
+  color: #000000;
   padding: 5px;
 }
-#social a{
+.social{
   padding: 15px;
+}
+.social a{
+  padding: 25px;
 }
 @media(max-width:768px){
   .card {
@@ -36,10 +46,10 @@ h1.name{
     margin: auto;
     text-align: center;
     font-family: arial;
-    background-color: beige;
+    background-color:#ddeeff;
     border-radius: 4px;
   }
-  .card div{
+  .card div.cyc-img{
     position: relative;
     padding: 55px;
   }
@@ -53,13 +63,16 @@ h1.name{
     height: 150px;
     border-radius: 50%;
     z-index: 1;
-    background-color: burlywood;
-    border: 8px double white;
-    padding: 0;
+    background-color: #ddeeff;
+    border: 8px double #dddddd;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
   }
+  .card hr{
+    width: 80%;
+    border-bottom: 1.3px solid black;
+    margin: auto;
+  }
 }
-
 .bg-modal{
   width: 100%;
   height: 100%;
@@ -90,10 +103,10 @@ h1.name{
 .modal-content span{
   color: #002233;
   font-weight: bolder;
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 .modal-content button{
-  margin: 15px;
+  margin: 10px;
   width: 30%;
   height: 30%;
 }
